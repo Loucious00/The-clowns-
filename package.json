@@ -1,0 +1,19 @@
+{
+  "name": "the-clown-x5",
+  "version": "1.0.0",
+  "description": "The_Clown_x5 - Clown Fun WhatsApp bot (starter)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "gen:commands": "node scripts/generate.js 2000"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.0.0",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0",
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
